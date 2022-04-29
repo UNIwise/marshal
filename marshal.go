@@ -13,7 +13,7 @@ var _ nats.MarshalerUnmarshaler = &Marshaler{}
 
 type Marshaler struct{}
 
-func NewMarshalerUnmarshaler(protoMessage proto.Message) *Marshaler {
+func NewMarshalerUnmarshaler() *Marshaler {
 	return &Marshaler{}
 }
 
