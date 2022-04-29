@@ -8,9 +8,17 @@ require (
 )
 
 require (
+	github.com/hashicorp/go-hclog v1.2.0 // indirect
+	github.com/hashicorp/go-msgpack v1.1.5 // indirect
+	github.com/hashicorp/raft v1.3.9 // indirect
+	github.com/klauspost/compress v1.15.2 // indirect
 	github.com/lithammer/shortuuid/v3 v3.0.7 // indirect
+	github.com/minio/highwayhash v1.0.2 // indirect
+	github.com/nats-io/jwt/v2 v2.2.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	go.etcd.io/bbolt v1.3.6 // indirect
+	golang.org/x/time v0.0.0-20220411224347-583f2d630306 // indirect
 )
 
 require (
