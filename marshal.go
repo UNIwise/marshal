@@ -1,4 +1,4 @@
-package marshaller
+package marshal
 
 import (
 	"github.com/ThreeDotsLabs/watermill-nats/pkg/nats"

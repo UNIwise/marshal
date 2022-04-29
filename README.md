@@ -10,24 +10,7 @@ Marshal is a marshaller for watermill that just passes the message. To be used w
 ## Usage:
 
 ```golang
+    //Create marshaller
+    marshaller := marshal.NewMarshalerUnmarshaler()
 
-// With no logger 
-logger := walrus.New()
-
-// With a specific logger
-logger := walrus.NewWithLogger(logrus.StandardLogger())
-
-// With a specific log entry
-logger := walrus.NewWithLogger(logrus.StandardLogger().WithField("foo", "bar")
-
-// Example for NATS subscriber
-subscriber, err := nats.NewStreamingSubscriber(
-    nats.StreamingSubscriberConfig{
-        ...
-    },
-    logger,
-)
-
-// Example for message router
-router, err := message.NewRouter(message.RouterConfig{}, logger)
 ```
