@@ -5,7 +5,6 @@ import (
 	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/google/uuid"
 	"github.com/nats-io/stan.go"
-	"google.golang.org/protobuf/proto"
 )
 
 // Force implementation check.
