@@ -16,12 +16,12 @@ func NewMarshalerUnmarshaler() *Marshaler {
 	return &Marshaler{}
 }
 
-// Marshal implements nats.MarshalerUnmarshaler
+// Marshal implements nats.MarshalerUnmarshaler.
 func (m *Marshaler) Marshal(topic string, msg *message.Message) ([]byte, error) {
 	return msg.Payload, nil
 }
 
-// Unmarshal implements nats.MarshalerUnmarshaler
+// Unmarshal implements nats.MarshalerUnmarshaler.
 func (m *Marshaler) Unmarshal(stanMsg *stan.Msg) (*message.Message, error) {
 	msg := message.NewMessage(uuid.NewString(), stanMsg.Data)
 	return msg, nil
