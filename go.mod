@@ -2,10 +2,7 @@ module github.com/uniwise/marshal
 
 go 1.18
 
-require (
-	github.com/nats-io/stan.go v0.10.2
-	google.golang.org/protobuf v1.28.0
-)
+require github.com/nats-io/stan.go v0.10.2
 
 require (
 	github.com/hashicorp/go-hclog v1.2.0 // indirect
@@ -19,6 +16,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
 	golang.org/x/time v0.0.0-20220411224347-583f2d630306 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 )
 
 require (
@@ -29,5 +27,5 @@ require (
 	github.com/nats-io/nats.go v1.13.0 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
 )
